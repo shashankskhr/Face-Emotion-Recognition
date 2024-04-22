@@ -8,8 +8,8 @@ import os
 import cv2
 import numpy as np
 
-face_classifier = cv2.CascadeClassifier(r'C:\Users\hp\Downloads\facialemotionrecognizerinrealtime-main\facialemotionrecognizerinrealtime-main\haarcascade_frontalface_default.xml')
-classifier =load_model(r'C:\Users\hp\Downloads\facialemotionrecognizerinrealtime-main\facialemotionrecognizerinrealtime-main\model.h5')
+face_classifier = cv2.CascadeClassifier(r'C:\Users\hp\OneDrive\Desktop\facialemotionrecognizerinrealtime-main\haarcascade_frontalface_default.xml')
+classifier =load_model(r'C:\Users\hp\OneDrive\Desktop\facialemotionrecognizerinrealtime-main\model.h5')
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
 
